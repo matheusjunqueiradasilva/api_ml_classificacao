@@ -1,4 +1,3 @@
-# ml_api_classificacao
 
 Treinamento e salvamento de um modelo de classificação usando Random Forest
 
