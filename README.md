@@ -8,7 +8,7 @@ Esta API implementa um exemplo de treinamento de um modelo de classificação us
 <p>
 1. Primeiro clone o repositório.
 <p>
-2.  instale a versão do Python de acordo com o arquivo python-version.
+2. instale a versão do Python de acordo com o arquivo python-version.
 <p>
 3. Crie a virtuaenv e inicie ela.
 <p>
@@ -30,12 +30,17 @@ Método: POST
 Endpoint: ``localhost:8000/predicao``
 
 <h3>Parâmetros</h3>
-Os seguintes parâmetros são necessários para fazer a previsão:
-
-s_length: comprimento da sépala da flor Iris.
-s_width: largura da sépala da flor Iris.
-p_length: comprimento da pétala da flor Iris.
-p_width: largura da pétala da flor Iris.
+<p>
+<h4>Os seguintes parâmetros são necessários para fazer a previsão:</h4>
+<p>
+1. s_length: comprimento da sépala da flor Iris.
+<p>
+2. s_width: largura da sépala da flor Iris.
+<p>
+3. p_length: comprimento da pétala da flor Iris.
+<p>
+4. p_width: largura da pétala da flor Iris.
+ 
 ## Exemplo de payload
 <h3> Json</h3>
 <h4>Copy code:</h4><code>{
