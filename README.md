@@ -56,8 +56,3 @@ O cabeçalho token não é necessário para esta solicitação.
 <h3>Respostas</h3>
 200: Resposta bem-sucedida.
 A previsão é retornada no corpo da resposta.
-Media type
-application/json
-<p>
-Para fazer uma solicitação de previsão, você pode enviar uma solicitação POST para o endpoint /predicao, fornecendo os valores corretos para os parâmetros s_length, s_width, p_length e p_width. A resposta conterá a previsão feita pelo modelo.
- 
