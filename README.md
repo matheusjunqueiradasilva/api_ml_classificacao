@@ -12,7 +12,7 @@ Esta API implementa um exemplo de treinamento de um modelo de classificação us
 <p>
 3. Crie a virtuaenv e inicie ela.
 <p>
-4. No terminal apontando pra a pasta do requirements.txt rode o seguinte comando: <code>Pip install -r requirements.txt </code> para instlar as dependencias.
+4. No terminal apontando pra a pasta do requirements.txt rode o seguinte comando: <code>Pip install -r requirements.txt </code> para instalar as dependencias.
 <p>
 5. Rode o servidor do uvicorn com o seguinte comando: <code>uvicorn core:core --reload</code>
 
