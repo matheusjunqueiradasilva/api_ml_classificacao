@@ -6,15 +6,15 @@ Esta API implementa um exemplo de treinamento de um modelo de classificação us
  
 <h2> Como Usar</h2>
 <p>
-1) Primeiro clone o repositório.
+1. Primeiro clone o repositório.
 <p>
-2) instale a versão do Python de acordo com o arquivo python-version.
+2.  instale a versão do Python de acordo com o arquivo python-version.
 <p>
-3) Crie a virtuaenv e inicie ela.
+3. Crie a virtuaenv e inicie ela.
 <p>
-4) No terminal apontando pra a pasta do requirements.txt rode o seguinte comando: <code>Pip install -r requirements.txt </code> para instlar as dependencias.
+4. No terminal apontando pra a pasta do requirements.txt rode o seguinte comando: <code>Pip install -r requirements.txt </code> para instlar as dependencias.
 <p>
-5) Rode o servidor do uvicorn com o seguinte comando: <code>uvicorn core:core --reload</code>
+5. Rode o servidor do uvicorn com o seguinte comando: <code>uvicorn core:core --reload</code>
 
 Versão
 0.0.1
@@ -37,37 +37,27 @@ s_width: largura da sépala da flor Iris.
 p_length: comprimento da pétala da flor Iris.
 p_width: largura da pétala da flor Iris.
 ## Exemplo de payload
-
-<h2> Json</h2>
-<h3>Copy code</h3>
-<code>{
+<h3> Json</h3>
+<h4>Copy code:</h4><code>{
   "s_length": 5.1,
   "s_width": 3.5,
   "p_length": 1.4,
   "p_width": 0.2
 }</code>
 
-<p>
-<h2>Exemplo de resposta</h2>
+## Exemplo de resposta
 <h3>Json</h3>
-<h3>Copy code</h3>
-<code>{
+<h4>Copy code:</h4> <code>{
   "prediction": "[0]"
 }</code>
-<p>
+
 <h2>Cabeçalhos</h3>
 O cabeçalho token não é necessário para esta solicitação.
-
 <h3>Respostas</h3>
 200: Resposta bem-sucedida.
 A previsão é retornada no corpo da resposta.
 Media type
 application/json
 <p>
-<h2>Contato</h2>
-Nome: Matheus J
-Email: matheusjunqueira.job@gmail.com
-
-
 Para fazer uma solicitação de previsão, você pode enviar uma solicitação POST para o endpoint /predicao, fornecendo os valores corretos para os parâmetros s_length, s_width, p_length e p_width. A resposta conterá a previsão feita pelo modelo.
  
