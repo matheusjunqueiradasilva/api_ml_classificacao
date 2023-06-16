@@ -53,6 +53,3 @@ p_width: largura da pétala da flor Iris.
 
 <h2>Cabeçalhos</h3>
 O cabeçalho token não é necessário para esta solicitação.
-<h3>Respostas</h3>
-200: Resposta bem-sucedida.
-A previsão é retornada no corpo da resposta.
